@@ -3,6 +3,9 @@
   <head>
     <title>Rainbow Background</title>
     <style>
+        /*
+            This CSS styling makes the webpage's body background into an animated rainbow! 
+        */
       body {
         background: linear-gradient(
           45deg,
@@ -14,9 +17,10 @@
           purple
         );
         background-size: 600% 600%;
-        animation: rainbow 20s ease infinite;
+        animation: rainbow 20s ease infinite; /*animation name, time duration, direction, iteration, */
       }
-
+      /*    This rule defines the animation behavior at different keyframes. A keyframe is a moment in the animation, at 0%, 50% and, 100% 
+      */
       @keyframes rainbow {
         0% {
           background-position: 0% 80%;
