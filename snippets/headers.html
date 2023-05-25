@@ -14,22 +14,50 @@
         * 
         * This is called internal CSS, as this stylesheet ONLY applies to this page.
         * To use these HTML elements with their styling, either copy this <style> element into your <head> element, or add JUST the CSS to your .css file.
+        *
+        * Feel free to copy and modify these HTML and CSS elements. Don't feel limited by them!
         */
       h1.type1 {
         background-color: red;
         border-radius: 10px;
+        border-style: ridge;
+        border-color: darkred;
         margin: auto;
         text-align: center;
       }
 
       h1.type2 {
         background-color: tomato;
+        color: wheat;
         box-shadow: 2px 2px 4px black;
+      }
+
+      h1.type3 {
+        background: linear-gradient(
+          45deg,
+          red,
+          orange,
+          yellow,
+          green,
+          blue,
+          purple
+        );
+        text-align: right;
+        color: white;
+      }
+
+      h2.type1 {
+        background-color: black;
+        color: greenyellow;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        border-radius: 20px;
       }
     </style>
   </head>
   <body>
     <h1 class="type1">Heading 1, Type 1</h1>
     <h1 class="type2">Heading 1, Type 2</h1>
+    <h1 class="type3">Heading 1, Type 3</h1>
+    <h2 class="type1">Heading 2, Type 1</h2>
   </body>
 </html>
