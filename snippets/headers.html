@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Headers Demo</title>
+    <style>
+      /* <style> is a HTML element that allows you to style other HTML elements that appear in your webpage. 
+        *  Styling is done using CSS, a language made for making websites look nice and colorful
+        *
+        *  <style> is defined in the <head> section, as this element defines essential information for the styling of the webpage
+        *  
+        * @NOTE: 
+        * The selector format (ELEMENT.CLASSNAME) allows you to specifically select elements with a certain classname. Notice how multiple headers are the same, but styled differently.
+        * Without the classname, all elements would look the same!
+        * 
+        * This is called internal CSS, as this stylesheet ONLY applies to this page.
+        * To use these HTML elements with their styling, either copy this <style> element into your <head> element, or add JUST the CSS to your .css file.
+        */
+      h1.type1 {
+        background-color: red;
+        border-radius: 10px;
+        margin: auto;
+        text-align: center;
+      }
+
+      h1.type2 {
+        background-color: tomato;
+        box-shadow: 2px 2px 4px black;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="type1">Heading 1, Type 1</h1>
+    <h1 class="type2">Heading 1, Type 2</h1>
+  </body>
+</html>
