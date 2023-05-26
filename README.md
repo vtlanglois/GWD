@@ -25,6 +25,7 @@ HTML/CSS code snippets are stored in the `snippets` folder. Each code snippet ma
 
 
 To use the **HTML** elements, simply copy the HTML element and paste into your webpage.
+
 **NOTE:** the HTML element may use inline CSS styling. If they do, they use _class_ selection to select specific HTML elements to style based on their class name. The HTML element will look like this:
 
 ```html
