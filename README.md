@@ -21,6 +21,8 @@ HTML/CSS code snippets are stored in the `snippets` folder. Each code snippet ma
 1. Boilerplate HTML webpage code (`<!DOCTYPE html> declaration tags`, `<head>` tags, etc)
 2. HTML elements (`<h#>' elements, etc)
 3. Inline CSS styling (`<style>` elements in the `<head>` tags)
+**NOTE:** some HTML/CSS elements are in their own folders. These elements require other HTML/CSS webpages to work properly.  
+
 
 To use the **HTML** elements, simply copy the HTML element and paste into your webpage.
 **NOTE:** the HTML element may use inline CSS styling. If they do, they use _class_ selection to select specific HTML elements to style based on their class name. The HTML element will look like this:
