@@ -5,8 +5,6 @@
     <link rel="stylesheet" type="text/css" href="snippets-demo.css" />
   </head>
   <body>
-
-    <!-- @TODO: #1 Add images for future use-->
     <!--Images-->
     <h1>Images</h1>
     <p>
@@ -31,6 +29,15 @@
     <h1>Image Maps</h1>
     <p>
       A <strong>image map</strong> is an image with clickable areas.
+      <!--#TODO #4 fix image map size + area locations-->
+      <img src="../../images/desk.png" alt="Computer Desk" usemap="#deskmap">
+
+      <map name="deskmap">
+        <area shape="rect" coords="283,333,708,588" alt="Monitor" href="../image map/monitor.html">
+        <area shape="circle" coords="805, 570, 100" alt="Computer" href="../image map/computer.html">
+        <area shape="circle" coords="276, 696, 50", alt="Phone" href="../image map/phone.html">
+      </map>
+
     </p>
     <hr>
     <!-- Lists -->
