@@ -55,7 +55,7 @@ If the HTML element uses inline **CSS** styling, do one of the following:
 - Copy the CSS styling in the `<style>` element into your personal webpage `<style>` element.
 - Copy the CSS styling in the `<style>` element into your personal `.css` file.
 
-# Resources
+## Resources
 
 Resources for webpages (images, linked HTML pages, etc) are stored in the `resource` folder. Any HTML element that requires an image or a linked HTML page uses the `resource` folder. 
 
