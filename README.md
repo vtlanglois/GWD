@@ -37,18 +37,33 @@ The inline CSS styling is stored in the `<style>` element, like this:
 ```html
 <head>
   <style>
-    /*HTML_ELEMENT . CLASS_NAME*/
+
+    /* HTML_ELEMENT */
+    p {
+      color: green;
+    }
+
+    /* HTML_ELEMENT . CLASS_NAME */
     h1.type1 {
       background-color: red;
-      border-radius: 10px;
-      border-style: ridge;
-      border-color: darkred;
-      margin: auto;
-      text-align: center;
     }
+
+    /* .CLASS_NAME */
+    .type2 {
+      background-color: blue;
+    }
+
+    /* .CLASS_NAME <...HTML_ELEMENTS> */
+    
+    .type3 a, li {
+      color: pink;
+    }
+
   </style>
 </head>
 ```
+
+
 
 If the HTML element uses inline **CSS** styling, do one of the following:
 
