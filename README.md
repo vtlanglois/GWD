@@ -73,7 +73,7 @@ Resources for webpages (images, linked HTML pages, etc) are stored in the `resou
 
 # Common Issues
 
-## I copied the `.html` and `.css` files into my workspace, but the HTML page isn't styled.
+### _I copied the `.html` and `.css` files into my workspace, but the HTML page isn't styled._
 
 By default, all `.html` files expect a stylesheet called `styles.css`. It is declared in each `.html` file's `<head>` tag:
 
