@@ -2,7 +2,7 @@
 
 This repository contains webpage templates and HTML/CSS code snippets for use in a future outreach event.
 
-## Template Instructions
+# Template Instructions
 
 HTML/CSS webpage templates are stored in the `templates` folder. Each webpage template contains the following elements:
 
@@ -14,7 +14,7 @@ To use a pre-made HTML/CSS webpage template, do one of the following:
 2. Copy the content of the `.html` file and paste into your personal `.html` file. Then, copy the content of the `.css` file and paste it into your personal `.css` file.
      - If you do this and your HTML document styling is not working, [see the issue here](#i-copied-the-html-and-css-files-into-my-workspace-but-the-html-page-isnt-styled)
 
-## Snippet Instructions
+# Snippet Instructions
 
 HTML/CSS code snippets are stored in the `snippets` folder. Each code snippet may contain the following elements:
 
@@ -67,7 +67,7 @@ If the HTML element uses inline **CSS** styling, do one of the following:
 - Copy the CSS styling in the `<style>` element into your personal webpage `<style>` element.
 - Copy the CSS styling in the `<style>` element into your personal `.css` file.
 
-## Resources
+# Resources
 
 Resources for webpages (images, linked HTML pages, etc) are stored in the `resource` folder. Any HTML element that requires an image or a linked HTML page uses the `resource` folder. 
 
