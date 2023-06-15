@@ -7,7 +7,7 @@ This repository contains webpage templates and HTML/CSS code snippets for use in
 HTML/CSS webpage templates are stored in the `templates` folder. Each webpage template contains the following elements:
 
 1. Boilerplate HTML webpage code (`<!DOCTYPE html> declaration tags`, `<head>` tags, etc)
-2. HTML elements (`<h#>' elements, etc)
+2. HTML elements (`<p>' elements, etc)
 3. Inline CSS styling (`<style>` elements in the `<head>` tags)
 
 To use a pre-made HTML/CSS webpage template, do one of the following:
@@ -18,8 +18,8 @@ To use a pre-made HTML/CSS webpage template, do one of the following:
 
 HTML/CSS code snippets are stored in the `snippets` folder. Each code snippet may contain the following elements:
 
-1. Boilerplate HTML webpage code (`<!DOCTYPE html> declaration tags`, `<head>` tags, etc)
-2. HTML elements (`<h#>' elements, etc)
+1. Boilerplate HTML webpage code (`<!DOCTYPE html>` declaration tags, `<head>` tags, etc)
+2. HTML elements (`<div>' elements, etc)
 3. Inline CSS styling (`<style>` elements in the `<head>` tags)
 **NOTE:** some HTML/CSS elements are in their own folders. These elements require other HTML/CSS webpages to work properly.  
 
