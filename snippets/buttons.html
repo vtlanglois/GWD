@@ -1,33 +1,51 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title>Buttons</title>
     <style>
-        button.type1 {
-          background-color: #ff6600; /* Sets the background color to orange */
-          color: white; /* Changes the text color to white */
-          padding: 30px 20px; /* Adds padding around the button. 10px to top and bottom, 20px to left and right */
-          border: none; /* Removes the default button border */
-          border-radius: 5px; /* Rounds the corners of the button */
-          cursor: pointer; /* Changes the cursor to a hand pointer on hover */
-        }
-        button.type2 {
-            background-color: aquamarine;
-            color:black;
-            border-style: groove;
-            padding: 10px;
-            cursor:crosshair;
-        }
-        button.type3 {
-            background-image: radial-gradient( circle 311px at 8.6% 27.9%,  rgba(62,147,252,0.57) 12.9%, rgba(239,183,192,0.44) 91.2% ); /* Adds a circular gradient to the button's background.*/
-            text-decoration:underline; /* Adds an underline to the button's text*/
-            padding: 20px; /* Adds padding around the button, 20px to the top, bottom, left, and right*/
-        }
-      </style>
-</head>
-<body>
+      button.type1 {
+        background-color: #ff6600; /* Sets the background color to orange */
+        color: white; /* Changes the text color to white */
+        padding: 30px 20px; /* Adds padding around the button. 10px to top and bottom, 20px to left and right */
+        border: none; /* Removes the default button border */
+        border-radius: 5px; /* Rounds the corners of the button */
+        cursor: pointer; /* Changes the cursor to a hand pointer on hover */
+      }
+      button.type2 {
+        background-color: aquamarine;
+        color: black;
+        border-style: groove;
+        padding: 10px;
+        cursor: crosshair;
+      }
+      button.type3 {
+        background-image: radial-gradient(
+          circle 311px at 8.6% 27.9%,
+          rgba(62, 147, 252, 0.57) 12.9%,
+          rgba(239, 183, 192, 0.44) 91.2%
+        ); /* Adds a circular gradient to the button's background.*/
+        text-decoration: underline; /* Adds an underline to the button's text*/
+        padding: 20px; /* Adds padding around the button, 20px to the top, bottom, left, and right*/
+      }
+
+      button.type4 {
+        background-color: tomato;
+        color: gainsboro;
+        padding: 40px 10px;
+      }
+
+      button.type4:hover {
+        /* Whenever the mouse cursor is over this element, apply this styling. */
+        background-color: lightsalmon;
+        border-radius: 10px;
+        cursor: help;
+      }
+    </style>
+  </head>
+  <body>
     <button class="type1">Click me!</button>
     <button class="type2">Click for info.</button>
     <button class="type3">Nah, Click Me!</button>
-</body>
+    <button class="type4">Hover over me.</button>
+  </body>
 </html>
