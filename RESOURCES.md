@@ -1,6 +1,6 @@
 # Resources
 
-This documents lists **HTML/CSS** resources you may use to help you develop your web pages.
+This documents lists **HTML/CSS** resources and tools you may use to help you develop your web pages.
 
 # HTML
 
