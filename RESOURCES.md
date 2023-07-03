@@ -27,5 +27,5 @@ This documents lists **HTML/CSS** resources and tools you may use to help you de
 
 # Tools
 
-[ChatGPT](https://chat.openai.com) : A generative AI. Can help generate HTML/CSS pages. **NOTE: Can produce incorrect code. Is NOT a replacement for learning. Meant to use as a helpful tool.**
+[ChatGPT](https://chat.openai.com) : A generative AI. Can help generate HTML/CSS code. **NOTE: Can produce incorrect code. Is NOT a replacement for learning. Meant to use as a helpful tool.**
 
