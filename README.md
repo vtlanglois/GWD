@@ -66,6 +66,7 @@ If the HTML element uses inline **CSS** styling, do one of the following:
 
 - Copy the CSS styling in the `<style>` element into your personal webpage `<style>` element.
 - Copy the CSS styling in the `<style>` element into your personal `.css` file.
+     - If you do this and the styling is not working, [see the issue here](#i-copied-a-html-code-snippet-into-my-html-file-that-had-styling-but-its-no-longer-styled)
 
 # Resources
 
@@ -90,6 +91,39 @@ By default, all `.html` files expect a stylesheet called `styles.css`. It is dec
 To fix this, do either of the following:
 1. Rename your CSS stylesheet to `styles.css`
 2. Change the `href` attribute's value from `styles.css` to your `.css` file name.
+
+### _I copied a **HTML** code snippet into my `.html` file that had styling, but its no longer styled_
+
+Code snippetssuch as `buttons.html`, `headers.html`, etc use **CSS** *inline styling* like this:
+
+```html
+  ...
+  <head>
+    ...
+    <styles>
+      h1.type2 {
+        background-color: tomato;
+        color: wheat;
+        box-shadow: 2px 2px 4px black;
+      }
+    </styles>
+    ...
+  </head>
+  ...
+```
+
+Each **CSS** in-line selector selects an HTML element based on the element's **tag** and *class* like this: **tag**.*class*.
+
+The name tells the program that this styling should **only** apply to HTML elements of type **tag** of class *class*.
+
+To fix this, do the following:
+1. Include the **CSS** styling in either your `.css` file or your `<style>` element in your `.html` file.
+2. Assign the **HTML** element a *class* name matching the *class* name on the **CSS** styling, like this:
+```html
+  <h1 class="type2"> My Header </h1>
+```
+ 
+
 
 # Acknowledgements
 
