@@ -94,7 +94,7 @@ To fix this, do either of the following:
 
 ### _I copied a **HTML** code snippet into my `.html` file that had styling, but its no longer styled_
 
-Code snippetssuch as `buttons.html`, `headers.html`, etc use **CSS** *inline styling* like this:
+Code snippets such as `buttons.html`, `headers.html`, etc use **CSS** *inline styling* like this:
 
 ```html
   ...
