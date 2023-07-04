@@ -127,4 +127,4 @@ To fix this, do the following:
 
 # Acknowledgements
 
-This repository of HTML and CSS elements is built upon the lessons and examples provided by [W3Schools] (www.w3schools.com). I would like to acknowledge their valuable resources and educational material, which have greatly contributed to the development of this project.
+This repository of HTML and CSS elements is built upon the lessons and examples provided by [W3Schools](https://www.w3schools.com). I would like to acknowledge their valuable resources and educational material, which have greatly contributed to the development of this project.
