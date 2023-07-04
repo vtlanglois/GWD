@@ -2,19 +2,59 @@
 <html>
   <head>
     <title>Lists</title>
+    <style>
+      /* if you style a list (<ul>, <ol>, etc), that styling is applied to ALL elements wrapped inside it*/
+      ul.example1 {
+        list-style-type: square; /* sets the shape/text/image for the bullet point of a list item*/
+        background-color:orchid; /* sets background color for the entire list*/
+      }
+
+      /* if style a list item (<li>), styling is applied ONLY to that list item with this class name*/
+      li.example1-altcolor {
+        background-color: aquamarine;
+      }
+
+      ol.example1 {
+        list-style-type: upper-roman;
+        border-radius: 10px;
+        border-width: 2px;
+        box-shadow: 10px;
+        background-color: antiquewhite;
+      }
+
+      /* */
+      ol.example1 li:hover {
+        background-color: brown;
+      }
+    </style>
   </head>
   <body>
     <!--Unordered List-->
-    <h3>Unordered List</h3>
+    <h3>Unordered List, No Styling</h3>
     <ul>
       <li>Item 1</li>
       <li>Item 2</li>
       <li>Item 3</li>
     </ul>
 
+    <!--Unordered List-->
+    <h3>Unordered List, Style Example 1</h3>
+    <ul class="example1">
+      <li>Item 1</li>
+      <li class="example1-altcolor">Item 2</li>
+      <li>Item 3</li>
+    </ul>
+
     <!--Ordered List-->
-    <h3>Ordered List</h3>
+    <h3>Ordered List, No Styling</h3>
     <ol>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+    </ol>
+
+    <h3>Ordered List, Style Example 1 (Hoverable)</h3>
+    <ol class="example1">
       <li>Item 1</li>
       <li>Item 2</li>
       <li>Item 3</li>
