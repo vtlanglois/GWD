@@ -34,32 +34,43 @@ To use the **HTML** elements, simply copy the HTML element and paste into your w
 The inline CSS styling is stored in the `<style>` element, like this:
 
 ```html
+...
 <head>
   <style>
 
     /* HTML_ELEMENT */
+    /* selects and styles ALL HTML elements WITH this tag */
     p {
       color: green;
     }
 
+    /* HTML_ELEMENT, HTML_ELEMENT, ...*/
+    /* selects and styles EACH HTML element WITH this tag*/
+    h2, h3 {
+
+    }
+
     /* HTML_ELEMENT . CLASS_NAME */
-    h1.type1 {
+    /* selects and styles HTML elements WITH this tag AND this class name */
+    h1.example1 {
       background-color: red;
     }
 
     /* .CLASS_NAME */
-    .type2 {
+    /* selects and styles ALL HTML elements WITH this class name */
+    .example2 {
       background-color: blue;
     }
 
-    /* .CLASS_NAME <...HTML_ELEMENTS> */
-    
-    .type3 a, li {
+    /* .CLASS_NAME HTML_ELEMENT, HTML_ELEMENT, ... */
+    /* selects and styles EACH HTML element with this tag WITH this class name*/
+    .example3 a, li {
       color: pink;
     }
 
   </style>
 </head>
+...
 ```
 
 If the HTML element uses inline **CSS** styling, do one of the following:
@@ -100,13 +111,13 @@ Code snippets such as `buttons.html`, `headers.html`, etc use **CSS** *inline st
   ...
   <head>
     ...
-    <styles>
-      h1.type2 {
+    <style>
+      h1.example1 {
         background-color: tomato;
         color: wheat;
         box-shadow: 2px 2px 4px black;
       }
-    </styles>
+    </style>
     ...
   </head>
   ...
@@ -120,10 +131,8 @@ To fix this, do the following:
 1. Include the **CSS** styling in either your `.css` file or your `<style>` element in your `.html` file.
 2. Assign the **HTML** element a *class* name matching the *class* name on the **CSS** styling, like this:
 ```html
-  <h1 class="type2"> My Header </h1>
+  <h1 class="example1"> My Header </h1>
 ```
- 
-
 
 # Acknowledgements
 
