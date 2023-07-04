@@ -6,7 +6,7 @@
       /* if you style a list (<ul>, <ol>, etc), that styling is applied to ALL elements wrapped inside it*/
       ul.example1 {
         list-style-type: square; /* sets the shape/text/image for the bullet point of a list item*/
-        background-color:orchid; /* sets background color for the entire list*/
+        background-color: orchid; /* sets background color for the entire list*/
       }
 
       /* if style a list item (<li>), styling is applied ONLY to that list item with this class name*/
@@ -22,9 +22,14 @@
         background-color: antiquewhite;
       }
 
-      /* */
+      /* hover only applies to the list items <li> in this element with this class name*/
       ol.example1 li:hover {
         background-color: brown;
+      }
+
+      /* makes ALL list items in this selected HTML element display vertically (inline)*/
+      ul.example2 li {
+        display: inline;
       }
     </style>
   </head>
@@ -42,6 +47,13 @@
     <ul class="example1">
       <li>Item 1</li>
       <li class="example1-altcolor">Item 2</li>
+      <li>Item 3</li>
+    </ul>
+
+    <h3>Unordered List, Style Example 2</h3>
+    <ul class="example2">
+      <li>Item 1</li>
+      <li>Item 2</li>
       <li>Item 3</li>
     </ul>
 
