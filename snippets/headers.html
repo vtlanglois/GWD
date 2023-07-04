@@ -55,19 +55,35 @@
 
       h2.example2 {
         text-transform: uppercase;
-        text-indent: 10px;
+        text-indent: 10px; /* how much space between element and text */
         background-color: aquamarine;
         font-family: 'Courier New', Courier, monospace;
       }
+
+      h2.example3 {
+        background-color: orange;
+        border: red dashed 1px; /* shorthand for styling border. sets color, style, and size */
+        border-radius: 5px;
+        text-align: justify;
+      }
+
+
+      h2.example3:hover { /* whenever the mouse cursor is over the header, use this styling */
+        background-color: darkorange;
+        border: darkred solid 3px;
+        text-align: center;
+      }
+
     </style>
   </head>
   <body>
     <h1>Heading 1, No styling</h1>
     <h1 class="example1">Heading 1, Style Example 1</h1>
-    <h1 class="example2">Heading 1, Style Example 2/h1>
+    <h1 class="example2">Heading 1, Style Example 2</h1>
     <h1 class="example3">Heading 1, Style Example 3</h1>
     <h2>Heading 2, No styling</h2>
     <h2 class="example1">Heading 2, Style Example 1</h2>
     <h2 class="example2">Heading 2, Style Example 2</h2>
+    <h2 class="example3">Heading 2, Style Example 3 (Hoverable)</h2>
   </body>
 </html>
