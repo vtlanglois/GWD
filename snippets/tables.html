@@ -11,6 +11,14 @@
       .example1 th, .example1 td {
         background-color: aqua;
       }
+
+      table.example2 {
+        border: 2px outset red;
+      }
+
+      tr.example2:hover {
+        background-color: brown;
+      }
     </style>
   </head>
   <body>
@@ -54,5 +62,26 @@
         </tr>
       </tbody>
     </table>
+
+    <table class="example2">
+      <caption>Style Example 1</caption>
+      <thead>
+        <tr>
+          <th>Column 1</th>
+          <th>Column 2</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="example2">
+          <td>Row 1, Column 1</td>
+          <td>Row 1, Column 2</td>
+        </tr>
+        <tr class="example2">
+          <td>Row 2, Column 1</td>
+          <td>Row 2, Column 2</td>
+        </tr>
+      </tbody>
+    </table>
+
   </body>
 </html>
