@@ -3,6 +3,11 @@
   <head>
     <title>Tables</title>
     <style>
+      /* 
+        :where() is used to simplify using multiple class selectors w/ HTML elemtns
+        it can also be written as:
+        .example1 table, example1 th, example1 td, 
+      */
       .example1 :where(table, th, td) {
         border: 2px solid blue;
         border-collapse: collapse; /* if borders overlap, collapse into one border*/
@@ -22,9 +27,10 @@
     </style>
   </head>
   <body>
-
     <table>
-      <caption>No Styling</caption>
+      <caption>
+        No Styling
+      </caption>
       <thead>
         <tr>
           <th>Column 1</th>
@@ -44,7 +50,9 @@
     </table>
 
     <table class="example1">
-      <caption>Style Example 1</caption>
+      <caption>
+        Style Example 1
+      </caption>
       <thead>
         <tr>
           <th>Column 1</th>
@@ -64,7 +72,9 @@
     </table>
 
     <table class="example2">
-      <caption>Style Example 1</caption>
+      <caption>
+        Style Example 1
+      </caption>
       <thead>
         <tr>
           <th>Column 1</th>
@@ -82,6 +92,5 @@
         </tr>
       </tbody>
     </table>
-
   </body>
 </html>
