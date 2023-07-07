@@ -3,12 +3,12 @@
   <head>
     <title>Tables</title>
     <style>
-      .example1 table, .example1 th, .example1 td {
-        border: 1px solid blue;
+      .example1 :where(table, th, td) {
+        border: 2px solid blue;
         border-collapse: collapse; /* if borders overlap, collapse into one border*/
       }
 
-      .example1 th, .example1 td {
+      .example1 :where(th, td) {
         background-color: aqua;
       }
 
